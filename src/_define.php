@@ -8,6 +8,11 @@ $this->registerModule(
         /* Description*/                "@@description@@",
         /* Author */                    "@@author@@",
         /* Version */                   '@@version@@',
-        /* Permissions */               '@@permissions@@'
+        /* Permissions */               
+		array(
+			'permissions' 	=>	'@@permissions@@',
+			'type'			=>		'plugin',
+			'priority'		=>	981
+		)
 );
 ?>

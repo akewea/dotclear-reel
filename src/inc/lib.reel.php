@@ -24,7 +24,7 @@ class wikiReel {
 		
 		$script .= 	"	);});";
 		
-		return '<p class="reel-container">'.$img.'<script type="text/javascript">'.$script.'</script></p>';
+		return '<p class="reel-container">'.$img.'<script type="text/javascript"><!--'."\n".$script."\n".'--></script></p>';
 	}
 	
 }
